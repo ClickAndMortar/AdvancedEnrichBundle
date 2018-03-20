@@ -1,0 +1,5 @@
+config:
+    paths:
+        # Exports
+        pim/job/common/edit/field/textarea: clickandmortaradvancedenrich/js/job/common/edit/field/textarea
+        pim/template/export/common/edit/field/textarea: clickandmortaradvancedenrich/templates/export/common/edit/field/text.html
