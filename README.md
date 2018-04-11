@@ -2,20 +2,13 @@
 
 Advanced Enrich Bundle is an extension of Akeneo Enrich bundle. It allows you to manage more fields types and other display options.
 
+Made by :heart: by C&M
+
 ## Installation
 
-Add package your **`composer.json`** file:
-```javascript
-"require": {
-    ...
-    "clickandmortar/advanced-enrich-bundle": "^1.0"
-    ...
-}
-```
-
-Launch `composer require` to add bundle to your project:
+Add package with composer:
 ```bash
-composer require clickandmortar/advanced-enrich-bundle
+composer require clickandmortar/advanced-enrich-bundle "^1.0"
 ```
 
 Add bundle in your **`app/AppKernel.php`** file:
