@@ -4,6 +4,13 @@ Advanced Enrich Bundle is an extension of Akeneo Enrich bundle. It allows you to
 
 Made with :blue_heart: by C&M
 
+## Versions
+
+| **Bundle version**  | **Akeneo version** |
+| ------------- | ------------- |
+| v1.1.*  | v3.1.*  |
+| v1.0.*  | v2.*.*  |
+
 ## Installation
 
 ### Download the Bundle
