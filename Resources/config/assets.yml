@@ -1,0 +1,3 @@
+css:
+    clickandmortaradvancedenrich:
+        - bundles/clickandmortaradvancedenrich/less/components/product-edit-form/datetimepicker.less

@@ -1,0 +1,2 @@
+parameters:
+    pim_catalog.localization.localizer.date.class: ClickAndMortar\AdvancedEnrichBundle\Localizer\DateTimeLocalizer
