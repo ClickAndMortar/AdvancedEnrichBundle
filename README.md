@@ -8,8 +8,9 @@ Made with :blue_heart: by C&M
 
 | **Bundle version**  | **Akeneo version** |
 | ------------- | ------------- |
-| v1.1.*  | v3.1.* / v3.2.*  |
-| v1.0.*  | v2.3.*  |
+| v1.2.*  | v4.0.* |
+| v1.1.*  | v3.1.* / v3.2.* |
+| v1.0.*  | v2.3.* |
 
 ## Installation
 
@@ -22,25 +23,14 @@ $ composer require clickandmortar/advanced-enrich-bundle
 ### Enable the Bundle
 
 Enable the bundle by adding it to the list of registered bundles
-in the `app/AppKernel.php` file of your project:
+in the `config/bundles.php` file of your project:
 
 ```php
 <?php
-// app/AppKernel.php
 
-// ...
-class AppKernel extends Kernel
-{
-    public function registerBundles()
-    {
-        $bundles = [
-            // ...
-            new ClickAndMortar\AdvancedEnrichBundle\ClickAndMortarAdvancedEnrichBundle(),
-        ];
-
-        // ...
-    }
-
-    // ...
-}
+return [
+    ...
+    ClickAndMortar\AdvancedEnrichBundle\ClickAndMortarAdvancedEnrichBundle::class => ['all' => true],
+    ...
+];
 ```
